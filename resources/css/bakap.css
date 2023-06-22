@@ -1,0 +1,308 @@
+/* Test */
+
+.loader {
+    position: fixed;
+    background: #333333;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999999;
+}
+
+[class*="sidebar-dark-"] {
+    background-color: #f2f2f2;
+}
+
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active,
+.sidebar-dark-primary
+    .nav-sidebar
+    > .nav-item
+    > .nav
+    > .nav-item
+    > .nav-link.active {
+    background-color: #e80000 !important;
+    color: #ffffff !important;
+}
+
+.nav-sidebar .nav-item > .nav-link:hover {
+    background-color: #e80000 !important;
+    color: #ffffff !important;
+}
+
+[class*="sidebar-dark-"] .sidebar a {
+    color: #000000 !important;
+}
+
+.layout-navbar-fixed
+    .wrapper
+    .sidebar-dark-primary
+    .brand-link:not([class*="navbar"]) {
+    background-color: #f2f2f2;
+}
+
+[class*="sidebar-dark"] .brand-link {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.nav-flat.nav-sidebar > .nav-item .nav-treeview .nav-item > .nav-link,
+.nav-flat.nav-sidebar > .nav-item > .nav-treeview .nav-item > .nav-link {
+    border-left: 0;
+}
+
+.small-box p {
+    font-size: 0.9rem;
+}
+/* Test */
+
+/* sweet alert */
+
+.swal2-actions {
+    width: 100%;
+    justify-content: space-evenly;
+}
+.swal2-styled {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.mx {
+    margin-left: 5rem !important;
+}
+/* sweet alert */
+.card-title {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.card-header {
+    padding: 0.3rem 1.25rem;
+}
+.form-group {
+    margin-bottom: 0.2rem;
+}
+
+.card-body {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1.8rem;
+}
+.custom-btn {
+    display: inline-block;
+    text-align: center;
+    background-color: #e80000;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.1s ease-in-out;
+    width: 7.7rem;
+    padding: 1px;
+    max-width: 9rem;
+}
+.custom-btn:hover {
+    transform: scale(1.05);
+    color: #ffffff;
+}
+.action-btn {
+    background: inherit;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+}
+.fa-pen {
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.delete-slot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delete-box {
+    background: #ffff;
+    padding: 20px;
+    border: 1px solid #333;
+}
+.delete-box p {
+    font-weight: bold;
+}
+.delete-box textarea {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+
+/* Search Icon Input */
+
+.div-search-input {
+    position: relative;
+}
+.div-search-input input {
+    padding-right: 35px;
+}
+
+.search-input-icon {
+    position: absolute;
+    right: 12px;
+    font-size: 1.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-ul-result {
+    margin-bottom: 0;
+    padding: 0;
+    background: #fff;
+    position: absolute;
+    max-height: 200px;
+    overflow-y: auto;
+    left: 0;
+    top: 45px;
+    width: 100%;
+    border: 1px solid #333;
+    list-style: none;
+    z-index: 999;
+}
+.search-ul-result li {
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.search-ul-result li:hover {
+    background-color: #e80000;
+    color: #ffffff;
+}
+
+/* Search Icon Input */
+
+/* ===========================RENEW==========================  */
+.renew-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.renew-header h3 {
+    color: #fff;
+    text-transform: uppercase;
+}
+/* .renew-header .contract-display */
+.renew-header .contract-display .contract-filtered,
+.renew-header .contract-display .selected-contract {
+    margin-bottom: 0;
+    color: #fff;
+    width: 150px;
+}
+.renew-header .contract-display .contract-filtered span,
+.renew-header .contract-display .selected-contract span {
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+/* ====================== PRINT ======================= */
+
+.print-terms div {
+    border: 1px solid #000;
+}
+
+.print-terms h1,
+.print-terms h2,
+.print-terms h3 {
+    text-align: center;
+}
+
+.print-ul {
+    list-style: none;
+    margin-bottom: 0;
+    text-align: center;
+}
+.print-ul p {
+    margin-bottom: 0;
+}
+
+.print-field {
+    border: 1px solid #000;
+    position: relative;
+    padding: 10px;
+    background: #fff;
+}
+.print-field p {
+    margin-bottom: 0;
+}
+.legend {
+    position: absolute;
+    z-index: 999;
+    top: -14px;
+    background: #fff;
+    padding: 0 5px;
+}
+.print-table {
+    width: 100%;
+    border: 1px solid #000;
+}
+.print-table th {
+    border: 1px solid #000;
+}
+.print-table td {
+    border: 1px solid #000;
+}
+
+.print-terms {
+    padding: 20px;
+}
+.print-signature {
+    border-top: 1px solid #000000;
+    text-align: center;
+}
+.print-signature p {
+    margin-bottom: 0;
+}
+.print-signature .name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ====================== PRINT ======================= */
+
+.contract-template {
+    display: none;
+}
+
+@media print {
+    .contract-template {
+        display: block;
+    }
+
+    footer,
+    .parent-contract-div {
+        display: none;
+    }
+    @page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    body {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+}
+
+.col-5 {
+    flex: 0 0 45.666667% !important;
+    max-width: 45.666667% !important;
+}
